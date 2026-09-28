@@ -47,7 +47,7 @@ The trader API authenticates every request with a short-lived **HS256 JWT**
 `sha256(body)`) plus an `X-Api-Key-Id` header. `young_auth.TraderAuth` is an
 `httpx.Auth` that mints and binds a fresh token for every request, so it stays
 correct for the empty-body GETs today and any future body-carrying call. See
-[../../../GUIDES/jwt.md](../../../GUIDES/jwt.md) for the full claim reference.
+[../../../GUIDES/auth.md](../../../GUIDES/auth.md) for the full claim reference.
 
 ## Regenerating the SDK
 

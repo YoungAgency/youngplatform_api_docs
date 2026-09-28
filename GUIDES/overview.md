@@ -25,7 +25,7 @@ The API is split by access level. The REST trader surface has two paths under `/
 - **REST** — request/response over HTTP. The full contract is in the [OpenAPI reference](../docs/openapi.html). Start with [Placing an Order (SOR)](./place_order.md).
 - **WebSocket** — subscribe to live prices, candles, order book, and account balances over a single connection. See [WebSocket API](./websocket.md).
 
-Prefer typed Python over raw HTTP? The [Python SDK](./sdk.md) wraps the REST surface in a generated client with per-request auth built in.
+Prefer typed Python over raw HTTP? The [Python SDK](./python_sdk.md) wraps the REST surface in a generated client with per-request auth built in.
 
 ## Authentication
 
@@ -48,5 +48,5 @@ See [API Key Authentication](./auth.md) for the full claim reference and ready-t
 - [API Key Authentication](./auth.md) — mint a token and make your first authenticated call.
 - [Placing an Order (SOR)](./place_order.md) — the place → poll flow for SOR orders.
 - [WebSocket API](./websocket.md) — live market data and balance streams.
-- [Python SDK](./sdk.md) — typed, generated client for the REST surface.
+- [Python SDK](./python_sdk.md) — typed, generated client for the REST surface.
 - [OpenAPI reference](../docs/openapi.html) — full request/response schemas.
