@@ -18,7 +18,7 @@ Every authenticated request carries a short-lived **HS256 JWT** (signed with you
 API key) plus an `X-Api-Key-Id` header. Generate API keys at pro.youngplatform.com.
 See the guide for the full reference.
 
-- **[GUIDES/jwt.md](./GUIDES/jwt.md)** — JWT claims, `hash_payload`, and ready-to-run token minters.
+- **[GUIDES/auth.md](./GUIDES/auth.md)** — JWT claims, `hash_payload`, and ready-to-run token minters.
 
 ## Examples
 

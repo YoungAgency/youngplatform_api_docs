@@ -84,7 +84,7 @@
         const md = url.pathname.match(/([\w-]+)\.md$/);
         if (md) {
           e.preventDefault();
-          location.href = `./guide.html?doc=${md[1]}`;
+          location.href = `./guide.html?doc=${md[1]}${url.hash}`;
         } else if (/openapi\.html$/.test(url.pathname)) {
           e.preventDefault();
           location.href = "./openapi.html";
